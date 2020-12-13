@@ -16,7 +16,7 @@ class ButtonStudy extends Component {
     }
     render() {
         return (
-            <View style={styles.container}>
+            <View>
                 <Text>{this.state.count}</Text>
                 <Button
                     onPress={(e) => this.countBtnPress()}
