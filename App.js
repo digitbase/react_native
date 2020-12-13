@@ -15,6 +15,7 @@ import {
 // import InputStudy from "./components/InputStudy";
 import AlertStudy from "./components/AlertStudy";
 import ScrollStudy from "./components/ScrollStudy";
+import ActiveStudy from "./components/ActiveStudy";
 
 import React, { Component } from "react";
 
@@ -29,6 +30,7 @@ class App extends Component {
             <View style={styles.container}>
                 {/* <TextStudy></TextStudy> */}
                 <AlertStudy></AlertStudy>
+                <ActiveStudy></ActiveStudy>
                 <ScrollStudy />
             </View>
         );

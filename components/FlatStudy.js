@@ -5,7 +5,7 @@ import ViewStudy from "./ViewStudy";
 const window = Dimensions.get("window");
 const screen = Dimensions.get("screen");
 
-export default class ScrollStudy extends Component {
+export default class FlatStudy extends Component {
     constructor(props) {
         super(props);
 
@@ -33,3 +33,13 @@ export default class ScrollStudy extends Component {
         );
     }
 }
+
+var styles = StyleSheet.create({
+    myview: {
+        height: 20,
+        fontSize: 40,
+        lineHeight: 40,
+        width: 12,
+        backgroundColor: "red",
+    },
+});
