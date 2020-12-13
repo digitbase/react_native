@@ -1,11 +1,20 @@
 import { StatusBar } from "expo-status-bar";
 //import React from "react";
-import { StyleSheet, Text, View, ScrollView } from "react-native";
-import ViewStudy from "./components/ViewStudy";
-import TextStudy from "./components/TextStudy";
-import ButtonStudy from "./components/ButtonStudy";
-import ImageStudy from "./components/ImageStudy";
-import InputStudy from "./components/InputStudy";
+import {
+    Alert,
+    StyleSheet,
+    Text,
+    View,
+    ScrollView,
+    Button,
+} from "react-native";
+// import ViewStudy from "./components/ViewStudy";
+// import TextStudy from "./components/TextStudy";
+// import ButtonStudy from "./components/ButtonStudy";
+// import ImageStudy from "./components/ImageStudy";
+// import InputStudy from "./components/InputStudy";
+import AlertStudy from "./components/AlertStudy";
+import ScrollStudy from "./components/ScrollStudy";
 
 import React, { Component } from "react";
 
@@ -18,10 +27,9 @@ class App extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>222</Text>
-                <ImageStudy></ImageStudy>
-                <InputStudy></InputStudy>
-                <ButtonStudy></ButtonStudy>
+                {/* <TextStudy></TextStudy> */}
+                <AlertStudy></AlertStudy>
+                <ScrollStudy />
             </View>
         );
     }
